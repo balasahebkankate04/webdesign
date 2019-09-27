@@ -1,0 +1,295 @@
+<!DOCTPE html>
+    <html lang"en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Omnifood</title>
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/demo.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/slider.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i&display=swap" rel="stylesheet">
+
+        <style>
+ 
+
+.gallery-new {
+   list-style: none;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+            
+ .parent {
+    width: 25%;
+    margin: 0px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}           
+            
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+
+
+
+/* Several different images */
+.bg-one {background-image: url(resources/img/1.jpg);}
+.bg-two {background-image: url(resources/img/2.jpg);}
+.bg-three {background-image: url(resources/img/3.jpg);}
+.bg-four {background-image: url(resources/img/4.jpg);}
+.bg-five {background-image: url(resources/img/5.jpg);}
+.bg-six {background-image: url(resources/img/6.jpg);}
+
+
+.shot-site {
+    display: none;
+    font-size: 20px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+        .gallery-new {padding: 20px 20px;}
+}
+
+
+
+
+.hello {display: none}
+        </style>
+     
+    </head>
+
+    <body>
+        
+        
+        <section id="gallery-new" class="gray-bg">
+            <div class="section-gallery">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="section-title text-center pb-20">
+                            <h2 class="title">GALLERY</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+
+  
+
+            <div class="gallery-new">
+                <div class="parent">
+                    <div class="child bg-one">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child bg-two">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="child bg-three">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+
+                <div class="parent" onclick="">
+                    <div class="child bg-four">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+
+                <div class="parent" onclick="">
+                    <div class="child bg-five">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+
+                <div class="parent" onclick="">
+                    <div class="child bg-six">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+                 <div class="parent" onclick="">
+                    <div class="child bg-six">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+                 <div class="parent" onclick="">
+                    <div class="child bg-six">
+                        <a class="shot-site" href="#">Shot at Site</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <!--BANNERE-->
+        <div id="gallery" class="ui basic segment protectYourAppSegment">
+            <div class="ui container">
+                <div class="ui one column grid stackable">
+                    <div class="sixteen wide column center aligned">
+                        <p class="project-by">A PROJECT BY</p>
+                        <h2 class="ui header landingTrialMessage">Exceeding Expectations</h2>
+
+                        <div><img src="resources/img/Web6.jpg"> </div>
+
+                        <div class="ui center aligned five column stackable grid">
+                            <div class="center middle column landingOnlineTrainingContainer">
+                                <div>
+                                    <p class="landingTrialIncludes">G. M. KENJALE GROUP KUNDAN SPACES is a name synonymous with Legacy, Quality, Trust and Commitment. All the exquisite residential and commercial projects the company has developed, reflect the same. is known for refined aesthetic vision and innovative thinking. The company has a new-age mindset that appeals the most to the sensible people with contemporary lifestyle. With a common objective of building out-of-the-box creation, both these coveted brands have come together. And the upshot is in front of you. As enthralling and awe-inspiring EMIRUS 2.O!</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+          <footer class="footer" data-scroll-index="7">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="info mb-md50">
+                        <!-- Logo -->
+                        <a class="logo" href="#">
+                            <img src="img/logo-dark.png" alt="logo">
+                        </a>
+                        <h6>THE ULTIMATE <i>BENCHMARK</i>
+                        OF EXCLUSIVITY </h6>
+                        <p>
+                            Few things in life signify the status quotient you have nurtured. A home
+                            that truly reflects your persona is the benchmark of exclusive living you
+                            have set for yourself. Don't compromise with your attitude. Opt for the
+                            best in the town…
+                        </p>
+                        <div class="social">
+                            <a href="https://www.facebook.com/EmirusPune/" target="_blank" class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/emiruspune/" target="_blank" class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/emirus/" target="_blank" class="icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="mb-md50">
+                        <div class="title">
+                            <h5>Site Address</h5>
+                        </div>
+                        <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp; Sr. no. 107, Baner Road, Near D' Mart, Baner, Pune- 411 045, Maharashtra India.</p>
+                        <br><a class="butn butn-bg" href="">
+                                  <span>Get Direction</span></a><br>
+                        <br>
+                        <div class="title">
+                            <h5>Contact us</h5>
+                        </div>
+                        <p>
+                            <i class="ti-email"></i>&nbsp;&nbsp; sales@emirus.net 
+                            <br><i class="ti-mobile style=" font-size:24px></i>&nbsp;  +91 82370 00041
+                        <br>
+                            <br>
+                        </p><div class="title">
+                            <img src="img/Maha-Rera-Logo.png" style="height:64px; width:64px" alt="MAHA RERE NO."> <h5>MAHA RERE NO.</h5>
+                        </div>
+                           
+                        <p>
+                            <a href="#">P52100005651</a> 
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <a target="_blank" href="https://www.google.com/maps/place/Emirus/@18.5676421,73.7694583,17z/data=!4m12!1m6!3m5!1s0x3bc2beb56726d065:0xe8bda9c44449ea8e!2sEmirus!8m2!3d18.567637!4d73.771647!3m4!1s0x3bc2beb56726d065:0xe8bda9c44449ea8e!8m2!3d18.567637!4d73.771647">
+                        <img src="img/Map.jpg" alt="MAP">
+                    </a>
+                
+                </div>
+
+            </div>
+        </div>
+        <div class="sub-footer text-center">
+            <p>© 2019 <a href="http://www.theplacet.com/"><b>THE PLACET</b>.</a>  All Rights Reserved.</p>
+        </div>
+    </footer>
+        
+     
+
+    </body>
+    <script>
+        // Initiate zoom effect:
+        imageZoom("myimage", "myresult");
+    </script>
+
+    </html>
